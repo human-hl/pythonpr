@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="tutu">
+            <a href="/">Tu•Tu</a>
+        </div>
+        <div class="nuv">
+            <a href="/menu">меню</a>
+            <a href="#">вакансии</a>
+            <a href="#">корзина</a>
+            <a href="/user">профиль</a>
+        </div>
+
+        <div class="burger-menu">
+            <img src="static/img/меню.png" alt="">
+            <img src="static/img/информация.png" alt="">
+            <img src="static/img/корзина.png" alt="">
+            <img src="static/img/профиль.png" alt="">
+        </div>
+
+        <div class="icon">
+            <img src="static/img/icons8-меню-50.png" alt="">
+        </div>
+    </header>
+
+    <main>
+
+        <section class="container">
+
+            <div class="information-user">
+                <div>
+                    <div class="photo-user">
+                    </div>
+
+                    <p>КАК СДЕЛАТЬ ВЫБОР ФОТО</p>
+                </div>
+                <div class="fio-vse">
+                       <form action="" method="post">
+                    <div class="FIO">
+                        <input type="text" placeholder="ФИО" id="username" required>
+                    </div>
+                    <div class="FIO">
+                        <input type="text" placeholder="Почта" id="email" required>
+                    </div>
+                    <div class="FIO">
+                        <input type="text" placeholder="Тел.">
+                    </div>
+                     <div class="msg">{{ msg }}</div>
+                           </form>
+
+                </div>
+            </div>
+
+            <div class=" row vse-oval gap-3">
+
+                <div class="oval col-4">
+                    <img class="img-oval" src="static/img/звезда.png" alt="">
+                    <a class="p-oval" href="#">Избраные блюда</a>
+                </div>
+
+                <div class="oval col-4">
+                    <img class="img-oval" src="static/img/ручка.png" alt="">
+                    <a class="p-oval" href="#">Написать отзыв</a>
+                </div>
+
+                <div class="oval col-4">
+                    <img class="img-oval" src="static/img/часы.png" alt="">
+                    <a class="p-oval" href="#">История заказов</a>
+                </div>
+
+                <div class="oval col-4">
+                    <img class="img-oval" src="static/img/поддержка.png" alt="">
+                    <a class="p-oval" href="#">Поддержка</a>
+                </div>
+
+                <div class="oval col-4">
+                    <img class="img-oval" src="static/img/карты.png" alt="">
+                    <a class="p-oval" href="#">Мои карты</a>
+                </div>
+
+                <div class="oval col-4">
+                    <img class="img-oval" src="static/img/выход.png" alt="">
+                    <a class="p-oval" href="/">Выйти с аккаунта</a>
+                </div>
+            </div>
+
+
+
+
+        </section>
+
+
+
+
+    </main>
+
+    <div class="podval">
+        <div class="information">
+            <div class="podval-mini mini-one">
+                <div class="tutu-two">
+                    <p>Tu•Tu</p>
+                </div>
+                <p>Служба доставки: тел. +7(999) 999 99 99</p>
+                <a href="https://yandex.ru/maps/39/rostov-na-donu/house/ploshchad_gagarina_1/Z0AYcQZiSkQPQFptfX5ydn9jZg==/?ll=39.712318%2C47.237302&z=17">Где находимся: пл. Гагарина 1</a>
+            </div>
+            <div class="podval-mini">
+                <p>Дополнительно:</p>
+                <a href="#" class="mini-two">-меню калорийности </a>
+                <a href="#">-отзывы </a>
+                <a href="#">-бонус </a>
+                <a href="#">-частые вопросы</a>
+            </div>
+
+            <div class="podval-mini">
+                <p>О компании:</p>
+                <a href="#" class="mini-three">-контакты</a>
+                <a href="#" class="mini-three">-пользовательское соглашение</a>
+                <a href="#" class="mini-three">-политика конфиденциальности</a>
+            </div>
+        </div>
+        <div class="years">
+            <p>Сеть кафе Tu•Tu © 2019-2023 </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
